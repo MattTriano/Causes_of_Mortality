@@ -1,6 +1,6 @@
 # Science Innovators Visualization Project
 
-This repo contains at data, preprocessing and helper scripts, proof of concept d3.js pages, and our visualization. 
+This repo contains at data, preprocessing and helper scripts, proof of concept d3.js pages, and our [interactive data visualization](https://bl.ocks.org/MattTriano/raw/154e9c142504d61985e2b65287e389be/).
 
 We're building a visualization that explores factors that impact life expectancy and population.
 
@@ -8,13 +8,13 @@ We're building a visualization that explores factors that impact life expectancy
 To prevent cross-site scripting attacks, Chrome won't let scripts load data from a server with a different origin.
 To set up a local server in Windows, I navigate (from the command line) to the directory of interest and enter
 
-``` ~/csc595_final_project>python -m http.server 8888 &. ```
+``` (your_env) ~/.../Causes_of_Mortality$ python -m http.server 8888 &. ```
 
 and then in Chrome, I enter "localhost:8888" as the URL. 
 
 ### Data Sources
-* [World Health Organization Cause Specific Mortality Data](http://www.who.int/healthinfo/statistics/mortality_rawdata/en/)
-* [World Bank Population Estimates](https://data.worldbank.org/data-catalog/population-projection-tables)
+* [World Health Organization Cause Specific Mortality Data](https://web.archive.org/web/20171109131211/http://www.who.int/healthinfo/statistics/mortality_rawdata/en)
+* [World Bank Population Estimates](https://web.archive.org/web/20170824143816/http://data.worldbank.org/data-catalog/population-projection-tables)
 * [Natural Earth World GeoJSON file](http://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/)
 
 ### Reference Examples
@@ -22,4 +22,4 @@ and then in Chrome, I enter "localhost:8888" as the URL.
 * [Milke Bostock's Legend Example](https://bl.ocks.org/mbostock/4573883)
 * [Mike Bostock's Zoom to Bounding Box](https://bl.ocks.org/mbostock/4699541)
 * [Making a bl.ock (Emma Saunders)](https://bl.ocks.org/emmasaunders/2ac8e418958f4c681f229f82729c9647)
-
+* [Repo where this project was originally generated as a final project](https://github.com/MattTriano/csc595_final_project)
